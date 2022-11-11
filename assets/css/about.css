@@ -107,17 +107,6 @@ body a, li{
     background:  #e5e5e5 !important; 
 
   }
-/* .custom-table::-webkit-scrollbar-thumb {
-    background: var(--lightblue) !important; 
-    
-}
-.custom-table::-webkit-scrollbar{
-    background: var(--lightblue) !important; 
-
-} */
-/* .company-title{
-   
-} */
 
 .sdg-img{
     width: 100%;
@@ -129,7 +118,6 @@ body a, li{
     top: 110px;
     left: 330px;
     z-index: 0;
-    /* right: 0px; */
 }
 .sdg-section{
     font-family: 'Avenir', sans-serif;
@@ -193,4 +181,42 @@ footer li a:hover{
 }
 .reach-out{
     font-size: .8rem !important ;
+}
+@media (max-width:992px){
+    .
+}
+@media (max-width:768px){
+    .avatar{
+        width: 100%;
+     }
+     .subscribe{
+        border-radius: 70px;
+    }
+    .join-team{
+        border-radius: 100px;
+    }
+}
+@media (max-width:576px){
+    .avatar{
+        width: 100%;
+     }
+}
+
+@media (max-width:375px){
+    .custom-table{
+
+    }
+    .team-border{
+        border-radius: 40px !important;
+     }
+    .avatar{
+        width: 100%;
+     }
+     .join-team{
+        border-radius: 40px;
+        margin: 6rem 0px!important;
+    }
+    .footer-border{
+        border-radius: 40px !important;
+    }
 }

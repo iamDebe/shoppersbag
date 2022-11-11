@@ -297,11 +297,7 @@ body a, li{
     top: 60px;
     left: 100px;
 }
-.try-out--earn{
-    /* position: absolute;
-    left: 0px;
-    right: 30px; */
-}
+
 .sustainable{
     color: var(--purple);
 }
@@ -419,12 +415,7 @@ footer li a:hover{
 }
 
 @media(max-width:991px){
-    /* .cust-logo{
-        width: 50%;
-    } */
-    .btn-toggler{
-        float: right !important;
-    }
+
     .mission{
         left: 350px !important;
     }
@@ -432,6 +423,7 @@ footer li a:hover{
         left: 390px !important;
 
     }
+   
     .apple{
         top: 210px;
         left: 120px;
