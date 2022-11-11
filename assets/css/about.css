@@ -182,8 +182,27 @@ footer li a:hover{
 .reach-out{
     font-size: .8rem !important ;
 }
-@media (max-width:992px){
-    .
+@media (max-width:1400px){
+    .gg{
+        width: 50% !important;
+    }
+    .subscribe{
+        border-radius: 80px;
+    }
+}
+@media (max-width:991px){
+    .join-team{
+        border-radius: 120px;
+    }
+    .subscribe-text{
+        font-size: 1.5rem !important;
+    }
+    .subscribe{
+        border-radius: 80px;
+    }
+    .gg{
+        width: 70%;
+    } 
 }
 @media (max-width:768px){
     .avatar{
@@ -191,6 +210,10 @@ footer li a:hover{
      }
      .subscribe{
         border-radius: 70px;
+    }
+    
+    .subscribe-text{
+        font-size: 1rem !important;
     }
     .join-team{
         border-radius: 100px;
