@@ -86,3 +86,45 @@ footer li a:hover{
 .reach-out{
     font-size: .8rem !important ;
 }
+@media (max-width:992px){
+
+    .office-img{
+        object-fit: cover;
+        object-position: bottom;
+
+    }
+    .office-img-1{
+        object-fit: cover;
+        object-position: center;
+    }
+    
+}
+@media (max-width:768px){
+    
+    .office-img{
+        object-fit: cover;
+        object-position: bottom;
+
+    }
+    .office-img-1{
+        object-fit: cover;
+        object-position: center;
+    }
+    
+}
+@media (max-width:576px){
+    .office-img{
+        object-fit: cover;
+        object-position: bottom;
+    }
+    .office-img-1{
+        object-fit: cover;
+        object-position: center;
+    }
+}
+@media (max-width:375px){
+    .footer-border{
+        border-radius: 30px !important;
+    }
+    
+}
