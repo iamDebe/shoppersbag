@@ -143,33 +143,48 @@ body a, li{
 }
 
 
-   .brand-testimonial{
-     background-color: #F9FBFA;
-     height: 300px;
-   }
+.brand-testimonial{
+    width: 100%;
+    /* background-color: #F9FBFA; */
+    /* min-height: 300px; */
+}
+.partners-img-1{
+    width: 80%;
+    margin-top: 4rem;
+    /* margin-left: 1rem; */
+}
+.partners-img-3{
+    width: 50%;
+    margin-top: 1rem;
 
-  .custom-list{
+}
+.partners-img-4{
+    width: 80%;
+    margin-top: 1.5rem;
+
+}
+.custom-list{
     font-family: "Avenir", sans-serif;
     font-size: 1.2rem !important;
     color: var(--fontblue);
     background-color: #F5F5F5;
     border: 1px solid #E2E2E2;
-  }
+}
 
-  .custom-list:hover{
+.custom-list:hover{
     background-color: var(--lightgreen);
     border-color: var(--green);
     color: white !important;
-  }
+    }
 
-  .image-container{
+.image-container{
     position: relative;
-  }
-  
-  .elipse-img{
+}
+
+.elipse-img{
     width: 100% !important;
-  }
-  .download-icon{
+}
+.download-icon{
     position: absolute;
     top: 10px;
     left: 80px;
@@ -177,26 +192,26 @@ body a, li{
     width: 65%;
     z-index: 10;
 
-  }
-  .try-out{margin-right: 1rem;
-  }
-  .apple{
+}
+.try-out{margin-right: 1rem;
+}
+.apple{
     position: absolute;
     top: 205px;
     left: 120px;
     right: 30px;
     width: 25%;
     z-index: 20;
-  }
-  .google{
+    }
+.google{
     position: absolute;
     top: 205px;
     left: 245px;
     right: 0px;
     width: 25%;
     z-index: 20;
-  }
-  .arrow-left{
+}
+.arrow-left{
     position: absolute;
     top: 300px;
     left: 140px;
@@ -207,8 +222,8 @@ body a, li{
     z-index: 30;
     border-radius: 50%;
     cursor: pointer;
-  }
-  .arrow-right{
+}
+.arrow-right{
     position: absolute;
     top: 300px;
     left: 250px;
@@ -219,8 +234,8 @@ body a, li{
     z-index: 30;
     border-radius: 50%;
     cursor: pointer;
-  }
- .arrow-right:hover{
+}
+.arrow-right:hover{
     background-color: rgb(141, 140, 255, 150%) !important;
 }
 .arrow-left:hover{
@@ -354,23 +369,7 @@ body a, li{
     width: 10%;
     
 }
-.other-question:nth-child(1){
-    position: absolute;
-    top: 20px;
-    left: 5px;
-}
-.other-question:nth-child(3){
-    position: absolute;
-    top: 20px;
-    left: 130px;
-}
 
-.other-question:nth-child(2){
-    position: absolute;
-    width: 15%;
-    left: 53px;
-    z-index: 10;
-}
 
 .accordion-button.collapsed::after {
     background-image: url( '../images/add-circle.svg'
@@ -413,7 +412,30 @@ footer li a:hover{
 .reach-out{
     font-size: .8rem !important ;
 }
+@media (max-width:1400px){
 
+    .partners-img-1{
+        width: 80%;
+        margin-top: 4rem;
+        /* margin-left: 1rem; */
+    }
+    .partners-img-3{
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .partners-img-4{
+        width: 80%;
+        margin-top: 1.5rem;
+    
+    }
+    /* faq */
+    .other-question{
+        width: 50%;
+        
+    }
+
+}
 @media(max-width:991px){
 
     .mission{
@@ -485,7 +507,13 @@ footer li a:hover{
     }
     
     .footer-border{
-        border-radius: 180px !important;
+        border-radius: 160px !important;
+    }
+
+    /* faq */
+    .other-question{
+        width: 80%;
+        
     }
 
 }
@@ -560,17 +588,20 @@ footer li a:hover{
             border-radius: 100px;
             
         }
+         /* faq */
+     .other-question{
+        width: 50%;
+        
+    }
+  
 }
 
 @media (max-width: 576px){ 
-   /* .cust-logo{
-       width: 50%;
-   } */
-   .btn-toggler{
-       /* border: 2px solid yellow !important; */
+  
+   /* .btn-toggler{
        margin-right: auto !important;
        float: right !important;
-   }
+   } */
     .hero-text{
         width: 100%;
     }
@@ -593,6 +624,11 @@ footer li a:hover{
         left: 3px;
         width: 80%;
         margin-bottom: 10px;
+        
+    }
+     /* faq */
+     .other-question{
+        width: 80%;
         
     }
 }
@@ -694,7 +730,11 @@ footer li a:hover{
     }
     .footer-border {
         border-radius: 40px !important;
-        padding: .8rem 2rem;
+        
+    }
+    /* faq */
+    .other-question{
+        width: 80%;
         
     }
 }

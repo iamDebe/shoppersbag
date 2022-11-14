@@ -133,4 +133,36 @@ footer li a:hover{
 }
 .reach-out{
     font-size: .8rem !important ;
+
+}
+@media(max-width:991px){
+    .blog-avatar{
+        width: 40% !important;
+   
+       }
+}
+@media(max-width:768px){
+    .blog-avatar{
+        width: 20% !important;
+   
+       }
+}
+@media(max-width:576px){
+    .blog-avatar{
+        width: 30% !important;
+   
+       }
+}
+@media(max-width:375px){
+.blog-avatar{
+     width: 60% !important;
+
+    }
+    .footer-border{
+        border-radius: 40px !important;
+    }
+    .blog-avatar{
+        width: 80%;
+    }
+   
 }

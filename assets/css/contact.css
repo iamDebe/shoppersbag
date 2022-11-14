@@ -86,43 +86,44 @@ footer li a:hover{
 .reach-out{
     font-size: .8rem !important ;
 }
-@media (max-width:992px){
-
-    .office-img{
-        object-fit: cover;
-        object-position: bottom;
-
+@media (max-width:1400px){
+    .map{
+        width: 100%;
+        min-height: 400px;
     }
-    .office-img-1{
-        object-fit: cover;
-        object-position: center;
+    .contact-hero-title{
+        max-width: 300px;
+        font-size: 3.5rem;
     }
-    
-}
-@media (max-width:768px){
-    
-    .office-img{
-        object-fit: cover;
-        object-position: bottom;
-
+    .contact-hero-body{
+        font-size: 1.5rem;
     }
-    .office-img-1{
-        object-fit: cover;
-        object-position: center;
-    }
-    
-}
-@media (max-width:576px){
-    .office-img{
-        object-fit: cover;
-        object-position: bottom;
-    }
-    .office-img-1{
-        object-fit: cover;
-        object-position: center;
+    .map-address{
+        font-size: 1.2rem;
     }
 }
+@media (max-width:991px){
+    .map{
+        width: 100%;
+        min-height: 400px;
+    }
+    .contact-hero-section{
+        padding: 0 2rem;
+    }
+    .contact-hero-title{
+        max-width: 300px;
+        font-size: 2rem;
+    }
+    .contact-hero-body{
+        font-size: 1.1rem;
+    }
+    .map-address{
+        font-size: 1rem;
+    }
+   
+
 @media (max-width:375px){
+
     .footer-border{
         border-radius: 30px !important;
     }
