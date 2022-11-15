@@ -183,9 +183,36 @@ footer li a:hover{
 }
 .slider-img{
     width: 80%;
-    height: 600px !important;
+    height: 400px !important;
     padding: 0rem 6rem !important;
     
+}
+.slider-img-1,.slider-img-2, .slider-img-3, .slider-img-4{
+    height: 400px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+}
+.carousel-caption h5{
+    font-family: "Avenir", sans-serif;
+    font-size:1.5rem;
+    font-weight: bolder !important;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.366);
+    display: inline-block;
+}
+.carousel-caption p{
+    color: #f4f4f4 !important;
+    background-color: rgba(0, 0, 0, 0.366);
+    font-size: 1.2rem !important;
+}
+.carousel-caption button{
+   font-weight: 500 !important;
+   text-transform: capitalize;
+   border: 2px solid #ee4138 !important;
+   color: white !important;
+   font-size: 1.2rem;
+   font-family: 'Marck Script', cursive;
+   background-color: transparent !important;
 }
 .plastic-report{
     font-size: 1.2rem !important;

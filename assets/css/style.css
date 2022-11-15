@@ -63,6 +63,35 @@ body a, li{
 .reuseable{
     color: var(--green) !important;
 }
+.hero-text .animate-text u{
+    display: inline-block;
+    display: none;
+}
+
+.hero-text span u.text-in{
+	display: block;
+	animation: textIn .5s ease;
+}
+.hero-text span u.text-out{
+	animation: textOut .5s ease;
+}
+@keyframes textIn{
+	0%{
+		transform: translateY(30%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-30%);
+
+	}
+}
 .hero-text p{
     font-family: 'Avenir', sans-serif;
     font-size: 1.3rem !important;
