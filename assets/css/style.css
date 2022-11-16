@@ -170,6 +170,9 @@ body a, li{
 .seal-video-section{
     margin-top: 20%!important;
 }
+.video-circle {
+    width: 100%;
+}
 
 
 .brand-testimonial{
@@ -205,6 +208,7 @@ body a, li{
     border-color: var(--green);
     color: white !important;
     }
+
 
 .image-container{
     position: relative;
@@ -298,6 +302,7 @@ body a, li{
     font-family: 'Avenir', sans-serif;
     font-size: 1.2rem;
     font-weight: 200;
+    background-color: transparent !important;
 }
 .custom__nav-item:hover{
     border-radius: 30px !important;
@@ -307,8 +312,8 @@ body a, li{
 .video-circle{
     width: 100%;
 }
-.why-img{
-    width: 95% !important;
+.why-img,.economic-img,.social-img, .tech-img{
+    width: 80% !important;
     position: relative;
     margin-bottom: 20px !important;
 }
@@ -373,7 +378,12 @@ body a, li{
 .more{
     color: var(--pink);
 }
-
+/* .key-metrics{
+    margin: 80px 0 !important;
+}
+.faq{
+    margin: 80px 0;
+} */
 /* footer */
 .subscribe{
     border-radius: 100px !important;
@@ -443,6 +453,19 @@ footer li a:hover{
 }
 @media (max-width:1400px){
 
+    .try-out--text{
+        top: 60px;
+        left: 200px;
+    }
+
+    .appstore-btn{
+        left: 330px;
+    }
+    .googleplay-btn{
+        left: 570px;
+    }
+   
+
     .partners-img-1{
         width: 80%;
         margin-top: 4rem;
@@ -458,6 +481,9 @@ footer li a:hover{
         margin-top: 1.5rem;
     
     }
+    /* .elipse-img{
+        width: 70% !important;
+    } */
     /* faq */
     .other-question{
         width: 50%;
@@ -519,6 +545,7 @@ footer li a:hover{
         top: 200px;
         left: 500px;
     }
+   
     .try-out--text{
         top: 60px;
         left: 190px;

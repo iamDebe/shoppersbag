@@ -26,7 +26,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-white mt-4 mb-5"  sty> 
+        <nav class="navbar navbar-expand-lg bg-white mt-4 mb-5" > 
             <div class="container">
                 
               
@@ -72,8 +72,8 @@
                                     </article>
                                 </div>
                                 <div class="col-10 offset-0 mx-auto  col-sm-10 offset-sm-2 col-lg-7 col-xl-10 hero-btn">
-                                    <button class="btn btn-custom-1 text-white rounded-pill  ">Show me how</button>
-                                    <button class="btn text-white btn-custom-2 text-capitalize "><u>Contact sales</u></button>
+                                    <button class="btn btn-custom-1 text-white rounded-pill fw-bold ">Show me how</button>
+                                    <button class="btn text-white btn-custom-2 text-capitalize fw-bold"><u>Contact sales</u></button>
                                 
                                 </div>
                                 <div class="col-12 col-sm-4 col-lg-4 custom-col-4 ">
@@ -111,17 +111,18 @@
                         <div class=" seal-video-section mt-5 mt-xl-5">
 
                             <div class="row">
-                                <div class="col-10 offset-1 col-sm-5 col-lg-5  col-xl-5 d-flex flex-column align-items-center mt-2 mt-sm-5 mt-lg-5 ">
+                                <div class="col-10 offset-1  col-sm-5 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1 mb-2 mt-sm-5 mt-lg-5 mt-5  mt-lg-0 pe-2">
+                                    
+                                    <video controls  width="" height="150" poster="/assets/images/video-poster.jpg" class="video-circle ">
+                                        <source src="/assets/videos/The Big 5 Personality Traits, OCEAN.mp4" type="video/mp4">
+                                    </video>
+                                
+                            </div>
+                                <div class="col-10 offset-1 col-sm-5 col-lg-5 offset-lg-2 col-xl-10 offset-xl-1  d-flex flex-column align-items-center mt-2 mt-sm-5 mt-lg-5 ">
                                     <img src="/assets/images/trust-seal.png" alt="" class="trust-seal " width="50">
-                                    <p class="reuseable text-center" >Trusted by brands and eco-friendly shopping bag producers serving 100,000+ shoppers</p>
+                                    <p class="reuseable text-center fs-4" >Trusted by brands and eco-friendly shopping bag producers serving 100,000+ shoppers</p>
                                 </div>
-                                <div class="col-10 offset-1  col-sm-5 col-lg-5 offset-lg-1 col-xl-5 mb-2 mt-sm-5 mt-lg-5 mt-5  mt-lg-0 pe-2">
-                                    
-                                        <video controls  width="" height="150" poster="/assets/images/video-poster.jpg" class="video-circle ">
-                                            <source src="/assets/videos/The Big 5 Personality Traits, OCEAN.mp4" type="video/mp4">
-                                        </video>
-                                    
-                                </div>
+                               
                             </div>
                         </div>
                       
@@ -131,7 +132,7 @@
                 </div>
             </section>
         </div>
-        <section class="brand-testimonial my-5 d-none d-sm-none d-lg-block">
+        <section class="brand-testimonial my-3 d-none d-sm-none d-lg-block">
             <hr>
             <div class="row px-5">
                 <div class="col-lg-3 offset-lg-0 col-6 offset-0"><img src="/assets/images/eko-carbon.png" alt="" class="partners-img-1"></div>
@@ -149,28 +150,58 @@
                     <h4 class="">For Shoppers</h4>
                 </article>
                 <div class="row ">
-                    <div class=" col-10 offset-1 col-sm-10 offset-sm-1  col-lg-5 offset-lg-0 col-xl-6 offset-xl-0">
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Download ShoppersBag App & Register </li>
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Locate Nearby Mall, Store, and Purchase ShoppersBag </li>
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Scan QR Code to Activate ShoppersBag </li>
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Connect with Eco-conscious Community in-App </li>
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Shop and Gain Reward from Partnering Mall & Stores</li>
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives </li>
-                        <li class="rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</li>
+                    <div class=" col-10 offset-1 col-sm-10 offset-sm-1  col-lg-5 offset-lg-0 col-xl-5 offset-xl-0">
+                      
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                              <button class="nav-lin activ rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-download-tab" data-bs-toggle="pill" data-bs-target="#v-pills-download" type="button" role="tab" aria-controls="v-pills-download" aria-selected="true">Download ShoppersBag App & Register </button>
+                              <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-locate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-locate" type="button" role="tab" aria-controls="v-pills-locate" aria-selected="false">Locate Nearby Mall, Store, and Purchase ShoppersBag</button>
+                              <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-scan-tab" data-bs-toggle="pill" data-bs-target="#v-pills-scan" type="button" role="tab" aria-controls="v-pills-scan" aria-selected="false" scan>Scan QR Code to Activate ShoppersBag</button>
+                              <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-connect-tab" data-bs-toggle="pill" data-bs-target="#v-pills-connect" type="button" role="tab" aria-controls="v-pills-connect" aria-selected="false">Connect with Eco-conscious Community in-App</button>
+                              <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-shop-tab" data-bs-toggle="pill" data-bs-target="#v-pills-shop" type="button" role="tab" aria-controls="v-pills-shop" aria-selected="false">Shop and Gain Reward from Partnering Mall & Stores</button>
+                              <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-participate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-participate" type="button" role="tab" aria-controls="v-pills-participate" aria-selected="false">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives</button>
+                              <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-share-tab" data-bs-toggle="pill" data-bs-target="#v-pills-share" type="button" role="tab" aria-controls="v-pills-share" aria-selected="false">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</button>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="tab-content" id="v-pills-tabContent">
+                            
+                              <div class="tab-pane fade" id="v-pills-scan" role="tabpanel" aria-labelledby="v-pills-scan-tab" tabindex="0">...</div>
+                              <div class="tab-pane fade" id="v-pills-connect" role="tabpanel" aria-labelledby="v-pills-connect-tab" tabindex="0">...</div>
+                              <div class="tab-pane fade" id="v-pills-shop" role="tabpanel" aria-labelledby="v-pills-shop-tab" tabindex="0">...</div>
+                              <div class="tab-pane fade" id="v-pills-connect" role="tabpanel" aria-labelledby="v-pills-connect-tab" tabindex="0">...</div>
+                              <div class="tab-pane fade" id="v-pills-participate" role="tabpanel" aria-labelledby="v-pills-participate-tab" tabindex="0">...</div>
+                              <div class="tab-pane fade" id="v-pills-connect" role="tabpanel" aria-labelledby="v-pills-connect-tab" tabindex="0">...</div>
+                              <div class="tab-pane fade" id="v-pills-share" role="tabpanel" aria-labelledby="v-pills-share-tab" tabindex="0">...</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class=" col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-xl-5 position-relative mt-5 mt-sm-0 mt-lg-0">
+                    <div class=" col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-xl-5 offset-xl-0 position-relativ mt-5 mt-sm-0 mt-lg-0">
                         <div class="image-container position-relative mt-sm-5">
                             <img src="/assets/images/Ellipse.png" alt="" class="elipse-img">
-                            <img src="/assets/images/download.png" alt="" class="download-icon ">
-                            <a href="#"><img src="/assets/images/App Store.png" alt="" class="apple "></a>
-                            <a href="#"><img src="/assets/images/Google Play.png" alt="" class="google "></a>
+                            <div class="tab-pane fade show active" id="v-pills-download" role="tabpanel" aria-labelledby="v-pills-download-tab" tabindex="0">
+                                <a href="#"><img src="/assets/images/App Store.png" alt="" class="apple "></a>
+                                <a href="#"><img src="/assets/images/Google Play.png" alt="" class="google "></a>
+                                
+                                <img src="/assets/images/download.png" alt="" class="download-icon ">
+                            </div>
+                              <div class="tab-pane fade" id="v-pills-locate" role="tabpanel" aria-labelledby="v-pills-locate-tab" tabindex="0">
+                                <a href="#"><img src="/assets/images/how-shopper-work/1.png" alt="" class="download-icon "></a>
+                                <!-- <a href="#"><img src="/assets/images/Google Play.png" alt="" class="google "></a> -->
+                              </div>
+
+                           
 
                             <a href="#"><img src="/assets/images/btn-left.png" alt="" class="arrow-left d-none d-sm-block d-lg-block"></a>
                             <a href="#"><img src="/assets/images/btn-right.png" alt="" class="arrow-right d-none d-sm-block d-lg-block"><a>
                         </div>
+                        
                     </div>
                    
                 </div>
+
+              
+                  
                 <div class="row mt-2 mt-sm-5 mt-md-5 mt-lg-5">
                     <div class=" col-10 offset-1 col-lg-8 offset-lg-4 col-sm-12 offset-sm-0 col-xl-8 offset-xl-3">
                         <button class="btn btn-custom-1 rounded-pill text-white my-5 btn-earn fw-semibold px-4 fs-6 py-3" >Start earning rewards from your favourite brands</button>
@@ -192,17 +223,57 @@
                             <img src="/assets/images/scribling.png" alt="" class="scribbling">
                         </div>
                     </div>
-                    <div class="col-xl-6 col-10 offset-1 px-2 col-lg-7 offset-lg-0 col-sm-12 offset-sm-0 ">
+                    <div class="col-xl-6 offset-xl-1 col-10 offset-1 px-2 col-lg-7 offset-lg-0 col-sm-12 offset-sm-0 ">
                         <div class="nav-list d-sm-flex justify-sm-content-evenly d-block">
-                            <li class="text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2">Environmment</li>
-                            <li class="text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2">Economic</li>
-                            <li class="text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2">Social</li>
-                            <li class="text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2">Tech-driven</li>
+                            
+                           
+                              
+                             
                         </div>
-                        <div class="mt-sm-3 mt-lg-5 mt-3 position-relative mx-auto me-sm-5 mx-md-0 mx-lg-0 mx-xl-0">
-                            <img src="/assets/images/save-the-planet.png" alt="" class="why-img ">
-                            <p class="img-text text-center">Reducing single-use plastic waste and promoting an environment that is safe from plastic pollution</p>
+                        <div class="row">
+
+                            <ul class="nav nav-pills  mb-3 " id="pills-tab" role="tablist">
+                                <li class="nav-item "  role="presentation">
+                                  <button class="nav-lin active border-0  text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2" id="pills-environment-tab" data-bs-toggle="pill" data-bs-target="#pills-environment" type="button" role="tab" aria-controls="pills-environment" aria-selected="true">Environment</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-lin border-0 text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2" id="pills-economic-tab" data-bs-toggle="pill" data-bs-target="#pills-economic" type="button" role="tab" aria-controls="pills-economic" aria-selected="false">Economic</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-lin border-0 text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2" id="pills-social-tab" data-bs-toggle="pill" data-bs-target="#pills-social" type="button" role="tab" aria-controls="pills-social" aria-selected="false">Social</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-lin border-0 text-black custom__nav-item px-lg-3 px-sm-3 px-md-3 px-2" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab" aria-controls="pills-tech" aria-selected="false">Tech-driven</button>
+                                  </li>
+                              </ul>
+                              <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-environment" role="tabpanel" aria-labelledby="pills-environment-tab">
+                                    <div class="mt-sm-3 mt-lg-5 mt-3 position-relative mx-auto me-sm-5 mx-md-0 mx-lg-0 mx-xl-0">
+                                        <img src="/assets/images/environmental.png" alt="" class="why-img ">
+                                       
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-economic" role="tabpanel" aria-labelledby="pills-economic-tab">
+                                    <div class="mt-sm-3 mt-lg-5 mt-3 position-relative mx-auto me-sm-5 mx-md-0 mx-lg-0 mx-xl-0">
+                                       
+                                      <img src="/assets/images/economic.png" alt="" class="economic-img">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-social" role="tabpanel" aria-labelledby="pills-social-tab">
+                                    <div class="mt-sm-3 mt-lg-5 mt-3 position-relative mx-auto me-sm-5 mx-md-0 mx-lg-0 mx-xl-0">
+                                        <img src="/assets/images/social.png" alt="" class="social-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab">
+                                    <div class="mt-sm-3 mt-lg-5 mt-3 position-relative mx-auto me-sm-5 mx-md-0 mx-lg-0 mx-xl-0">
+                                       <img src="/assets/images/tech-driven.png" alt="" class="tech-img">
+                                        
+                                    </div>
+                                </div>
+                              </div>
                         </div>
+                       
                     </div>
                 </div>
              </div>
@@ -221,7 +292,7 @@
                             <img src="/assets/images/App Store.svg" alt="" class="appstore-btn">
                             <img src="/assets/images/Google Play.svg" alt="" class="googleplay-btn">
                             <article class="try-out--earn text-white text-lg-start pt-3 position-relative">
-                                <p class=" fs-6 display-6 text-center  pt-2 px-2 px-sm-0">You earn rewards whenever you scan QR code to activate your shopping bag</p>
+                                <p class=" fs-6 display-6 text-center  pt-2 px-2 px-sm-0 mt-lg-3">You earn rewards whenever you scan QR code to activate your shopping bag</p>
                             </article>
                         </div>
                             
@@ -230,7 +301,64 @@
                 </div>
             </div>
         </section>
-        <div class="row my-5">
+        <section class="mt-5 key-metrics">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-4 d-flex justify-content-start">
+                        <article>
+                            <p>Number of </p>
+                        <h5 class="">shoppersbag in Circulation </h5>
+                        </article>
+                        <span class="fs-2 reuseable"><b>400</b> </span>
+                    </div>
+                    <div class="col-4 d-flex justify-content-start">
+                        <article>
+                            <p>Number of </p>
+                        <h5 class="">Partnering Stores</h5>
+                        </article>
+                        <span class="fs-2 reuseable"><b>400</b> </span>
+                    </div>
+                    <div class="col-4 d-flex justify-content-start ">
+                        <article>
+                            <p>Number of </p>
+                            <h5 class="">Women and Girls Impacted </h5>
+                        </article>
+                        <span class="fs-2 reuseable"><b>400</b> </span> 
+    
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-start ">
+                        <article>
+                            <p>Number of </p>
+                             <h5 class="">Single-use Plastic Reduction </h5>
+                        </article>
+
+                        <span class="fs-2 reuseable"><b>400</b> </span> 
+
+    
+                    </div>
+                    <div class="col-4 d-flex justify-content-start">
+                        <article>
+                            <p>Number of </p>
+                             <h5 class="">Eco-friendly Bag Producers </h5>
+                        </article>
+                        <span class="fs-2 reuseable"><b>400</b> </span>
+                    </div>
+                    <div class="col-4 d-flex justify-content-start">
+                        <article>
+                            <p>Number of </p>
+                             <h5 class="">Partnering Brands </h5>
+                        </article>
+                        <span class="fs-2 reuseable"><b> 400</b> </span>
+                        
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+        <div class="row my-5 faq">
             <div class="col-sm-8 offset-sm-2 col-lg-8 offset-lg-2 col-12 ">
                 <h3 class="text-center my-4">Frequently Asked Questions</h3>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -307,7 +435,7 @@
                     </div>
                   </div>
                   <div class=" mt-3">
-                    <a href="#"><p class="text-uppercase fw-semibold more text-sm-end text-lg-end text-center"><u>find more answers</u></p></a>
+                    <a href="faq.html"><p class="text-uppercase fw-semibold more text-sm-end text-lg-end text-center"><u>find more answers</u></p></a>
                   </div>
             </div>
             
@@ -317,11 +445,11 @@
     <footer class="my-5">
         <div class="container">
             <div class="subscribe px-sm-5 px-lg-5 px-3  py-4 ">
-                <div class="row d-sm-flex justify-sm-content-between d-block mx-auto">
-                    <div class="col-lg-5 col-sm-12  pt-2"><h4 class="text-dark fw-sm-bold fw-lg-bold fw-bolder mt-md-4 text-sm-center fs-sm-4 fs-lg-4 text-center">Subscribe to our news letter</h4></div>
-                    <div class=" col-sm-12   col-lg-6  offset-lg-1  pt-1 mb-lg-0 mb-sm-2 mb-">
+                <div class="row d-sm-flex justify-content-sm-between align-items-center d-block mx-auto">
+                    <div class="col-lg-5 col-sm-12  pt-2 pt-lg-0  "><h4 class="text-dark fw-sm-bold fw-lg-bold fw-bolder mt-sm-4 mt-lg-0 text-sm-center fs-sm-4 fs-lg-4 text-center">Subscribe to our news letter</h4></div>
+                    <div class=" col-sm-12   col-lg-6  offset-lg-1  pt-1 pt-lg-0 mb-lg-0 mb-sm-2 mb-">
                         <input type="email"  placeholder="Enter your email" name="" id="" class="rounded-pill border-0 px-sm-4 px-lg-4 px-2 py-2 me-">
-                        <button class="bg-dark border-0 rounded-pill text-white px-4 py-2 sub-btn mt-sm-3 mt-lg-3 mt-3 ">Subscribe </button>
+                        <button class="bg-dark border-0 rounded-pill text-white px-4 py-2 sub-btn mt-sm-3 mt-lg-0 mt-3 ">Subscribe </button>
                     </div>
                     
                 </div>
@@ -329,7 +457,7 @@
             <div class="footer-border mb-5">
 
                 <div class="row">
-                    <div class=" col-4 col-lg-3 col-sm-4 offset-sm-1">
+                    <div class="col-sm-3 col-xl-2 offset-xl-0 col-5">
                         <h4 class="text-capitalize footer-heading">company</h4>
                        
                             <li class="text-capitalize"><a href="">about</a> </li>
@@ -340,7 +468,7 @@
                             <li class="text-capitalize"><a href="">press</a></li>
                         
                     </div>
-                    <div class="col-4 offset-1 col-lg-3 col-sm-4">
+                    <div class="col-sm-3 col-xl-3 offset-xl-1 col-6 offset-1">
                         <h4 class="text-capitalize footer-heading">legals</h4>
                        
                             <li class="text-normal"><a href="">Website T&C's</a></li>
@@ -349,16 +477,16 @@
                             <li class="text-capitalize"><a href=""></a><a href=""><a href=""></a></a></li>
                         
                     </div>
-                    <div class=" col-4 col-lg-3 col-sm-4 offset-sm-1 mt-lg-0 mt-sm-2 mt-3">
+                    <div class="col-sm-3 col-xl-2 offset-xl-0 col-5 mt-sm-0 mt-2">
                         <h4 class="text-capitalize footer-heading">resources</h4>
                        
                             <li class="text-capitalize"><a href="">blog</a></li>
                             <li class="text-capitalize"><a href="">live chat</a></li>
                         
                     </div>
-                    <div class="col-4 offset-1 col-lg-12 col-sm-6 mt-lg-2 mt-sm-2 mt-3">
+                    <div class="col-sm-12 col-xl-3 offset-xl-1 offset-sm-0 col-6 offset-1 mt-sm-0 mt-2">
                         <h4 class="text-capitalize footer-heading">reach us</h4>
-                        <div class="social d-flex d-sm-flex d-md-flex d-lg-flex my-2">
+                        <div class="social d-flex  my-2">
                             <a href="https://www.linkedin.com/company/shopperbagng/"><img src="/assets/images/linkedin.svg" alt="" class="pe-sm-2 pe-md-2 pe-lg-2 pe-1"></a>
                             <a href="https://twitter.com/shoppersbagng?s=11&t=yLO79mofzBfCOcArRX60Ag"><img src="/assets/images/twitter.svg" alt="" class="social-icon px-sm-2 px-lg-2"></a>
                             <a href="https://instagram.com/shoppersbagnigeria?igshid=YmMyMTA2M2Y="><img src="/assets/images/instagram.svg" alt="" class="social-icon px-sm-2 px-lg-2"></a>
@@ -367,9 +495,9 @@
                         <span class="reach-out d-inline-block">For grievances, contact<a href="" class="sustainable"> info@wellofscience.com</a></span>
                         <span class="reach-out d-inline-block">Phone: 08064657872, 07030207123</span>
                         <span class="reach-out d-inline-block">Get ShoppersBag App on</span>
-                        <div class="download-app d-sm-flex flex-sm-column justify-content-sm-around d-lg-block">
-                            <a href=""><img src="/assets/images/App Store-dark.svg" alt="" width="105" class="mt-lg-2 mt-sm-2"></a>
-                            <a href=""><img src="/assets/images/Google Play-dark.svg" alt="" width="100" class="mt-lg-2 mt-sm-2"></a>
+                        <div class="download-app ">
+                            <a href=""><img src="/assets/images/App Store-dark.svg" alt="" width="100" class="mt-sm-0 mt-1"></a>
+                            <a href=""><img src="/assets/images/Google Play-dark.svg" alt="" width="100" class="mt-sm-0 mt-1"></a>
                         </div>
 
                     </div>
