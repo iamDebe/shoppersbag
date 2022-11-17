@@ -19,9 +19,7 @@ body a, li{
 }
 
 /* nav */
-.logo-cont{
 
-}
 .cust-nav-bar{
     width:65%;
 }
@@ -230,25 +228,17 @@ body a, li{
 }
 .apple{
     position: absolute;
-    top: 205px;
-    left: 120px;
+    top:300px;
+    left: 95px;
     right: 30px;
     width: 25%;
     z-index: 20;
     }
-.google{
-    position: absolute;
-    top: 205px;
-    left: 245px;
-    right: 0px;
-    width: 25%;
-    z-index: 20;
-}
+
 .arrow-left{
     position: absolute;
-    top: 300px;
-    left: 140px;
-    right: 0px;
+    top: 400px;
+    left: 180px;
     background-color: rgb(141, 140, 255, 20%);
     width: 80px;
     height: 80px;
@@ -258,9 +248,8 @@ body a, li{
 }
 .arrow-right{
     position: absolute;
-    top: 300px;
-    left: 250px;
-    right: 0px;
+    top: 400px;
+    left: 290px;
     background-color: rgb(141, 140, 255, 80%);
     width: 80px;
     height: 80px;
@@ -453,6 +442,26 @@ footer li a:hover{
 }
 @media (max-width:1400px){
 
+    .sav_earn-img{
+        top: -190px;
+        left: 580px !important;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .mission{
+        left: 650px !important;
+        z-index: 10;
+    }
+  
+    .shoppers{
+        position: absolute;
+        top: 100px;
+        left: 160px;
+        width: 40%;
+       
+      }
+
     .try-out--text{
         top: 60px;
         left: 200px;
@@ -492,6 +501,18 @@ footer li a:hover{
 
 }
 @media(max-width:991px){
+        /* .sav_earn-img{
+            top: -190px;
+            left: 580px !important;
+            width: 100%;
+            z-index: 1;
+
+        }
+        .mission{
+            left: 650px !important;
+            z-index: 10;
+        } */
+  
 
     .mission{
         left: 350px !important;
