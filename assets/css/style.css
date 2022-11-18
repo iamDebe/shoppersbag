@@ -21,7 +21,7 @@ body a, li{
 /* nav */
 
 .cust-nav-bar{
-    width:65%;
+    width:100%;
 }
 .cust-logo{
     width: 60%;
@@ -108,7 +108,7 @@ body a, li{
     font-family: 'Avenir', sans-serif;
     font-size: 1.2rem !important;
     font-weight:300 !important;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 
@@ -126,7 +126,9 @@ body a, li{
 .plastic-stats{
     padding-top: 5rem;
 } 
-
+.text-group span{
+    font-size: 1.3rem !important;
+}
 .waste_figures{
     font-family: 'Neogrey Medium', sans-serif;
     font-size: 1.3rem !important;
@@ -193,6 +195,12 @@ body a, li{
     margin-top: 1.5rem;
 
 }
+.users-category-detail{
+    display: none;
+}
+.showing{
+    display: block !important;
+}
 .custom-list{
     font-family: "Avenir", sans-serif;
     font-size: 1.2rem !important;
@@ -200,6 +208,18 @@ body a, li{
     background-color: #F5F5F5;
     border: 1px solid #E2E2E2;
 }
+/* .nav-link{
+    font-family: "Avenir", sans-serif !important;
+    font-size: 1.2rem !important;
+    color: var(--fontblue) !important;
+    background-color: #F5F5F5 !important;
+    border: 1px solid #E2E2E2 !important;
+}
+.nav-link:hover{
+    background-color: var(--lightgreen) !important;
+    border-color: var(--green) !;
+    color: white !important;
+} */
 
 .custom-list:hover{
     background-color: var(--lightgreen);
@@ -224,7 +244,17 @@ body a, li{
     z-index: 10;
 
 }
-.try-out{margin-right: 1rem;
+.try-out{
+    /* margin-right: 1rem 3rem; */
+    background-image: url('../images/hero_rectangle.png');
+    width: 100% !important;
+    min-height: 450px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 50px !important;
+    z-index: 300;
 }
 .apple{
     position: absolute;
@@ -262,6 +292,29 @@ body a, li{
 }
 .arrow-left:hover{
     background-color: rgb(141, 140, 255, 40%);
+}
+.ellipse{
+    width: 500px; 
+    height: 500px; 
+    background-color: #e5e5e5; 
+    border-radius: 50%;
+}
+
+.circle-left{
+    background-color: rgb(150, 150, 223); 
+    border-radius: 50%; 
+    height: 100px; 
+    width: 100px;
+    top: 350px;
+    left: 160px;
+}
+.circle-right{
+    background-color: rgb(143 135 246); 
+    border-radius: 50%;
+    height: 80px; 
+    width: 80px;
+    top: 350px;
+    left: 280px;
 }
 .btn-earn{
     margin: auto !important;
@@ -317,12 +370,17 @@ body a, li{
     text-align: center;
     
 }
+.get-app{
+    padding-top: 60%;
+    z-index: 500;
+}
 
 .scribbling{
     position: absolute;
     width: 60%;
     top: 60px;
     left: -115px;
+    z-index: 100;
     
 }
 
@@ -330,31 +388,17 @@ body a, li{
     width: 100%;
     height: 400px;
 }
-.try-out--text{
-    position: absolute;
-    top: 60px;
-    left: 100px;
-}
 
 .sustainable{
     color: var(--purple);
 }
 .appstore-btn{
-    position: absolute;
     width:20%;
-    top: 200px;
-    left: 230px;
+    
 }
 .googleplay-btn{
-    position: absolute;
     width:20%;
-    top: 200px;
-    left: 450px;
-}
-.try-out--earn{
-    position: absolute;
-    top: -150px;
-    left: 0px;
+   
 }
 .cust-accord-btn{
     font-size: 1.5rem !important;
@@ -367,12 +411,7 @@ body a, li{
 .more{
     color: var(--pink);
 }
-/* .key-metrics{
-    margin: 80px 0 !important;
-}
-.faq{
-    margin: 80px 0;
-} */
+
 /* footer */
 .subscribe{
     border-radius: 100px !important;
@@ -457,7 +496,7 @@ footer li a:hover{
     .shoppers{
         position: absolute;
         top: 100px;
-        left: 160px;
+        left: 150px;
         width: 40%;
        
       }
@@ -467,11 +506,23 @@ footer li a:hover{
         left: 200px;
     }
 
-    .appstore-btn{
-        left: 330px;
+    .ellipse{
+        width: 500px; 
+        height: 500px; 
+        background-color: #e5e5e5; 
+        border-radius: 50%;
     }
-    .googleplay-btn{
-        left: 570px;
+    .circle-left{
+        background-color: rgb(182, 182, 235); 
+        border-radius: 50%;
+        height: 80px; 
+        width: 80px;
+    }
+    .circle-right{
+        background-color: rgb(143 135 246); 
+        border-radius: 50%;
+        height: 80px; 
+        width: 80px;
     }
    
 
@@ -500,19 +551,82 @@ footer li a:hover{
     }
 
 }
-@media(max-width:991px){
-        /* .sav_earn-img{
-            top: -190px;
-            left: 580px !important;
-            width: 100%;
-            z-index: 1;
+@media(max-width:1199px){
+    .sav_earn-img{
+       
+        display:  none !important;
+    
+    }
+    .mission{
+       
+        display: none !important;
+    } 
 
-        }
-        .mission{
-            left: 650px !important;
-            z-index: 10;
-        } */
-  
+
+}
+@media(max-width:991px){
+    .custom-flex{
+        display: flex !important;
+        flex-direction: row !important;
+        
+    }
+    .btn-custom-2 {
+        margin-top: 1rem;
+        width: 80% !important;
+        border: 2px solid white !important;
+        border-radius: 25px !important;
+    }
+    .btn-custom-1{
+        width: 80% !important;
+    }
+.sav_earn-img{
+    top: -100px;
+    left: 580px !important;
+    width: 100%;
+    z-index: 1;
+    display:  none !important;
+
+}
+.mission{
+    left: 650px !important;
+    z-index: 10;
+    display: none !important;
+} 
+.ellipse{
+    width: 400px; 
+    height: 400px; 
+}
+.circle-left{
+    background-color: rgb(182, 182, 235); 
+    border-radius: 50%;
+    height: 80px; 
+    width: 80px;
+    top: 280px;
+    left: 110px;
+    /* display: none; */
+}
+.circle-right{
+    background-color: rgb(143 135 246); 
+    border-radius: 50%;
+    height: 80px; 
+    width: 80px;
+    top: 280px;
+    left: 240px;
+    /* display: none; */
+} 
+.shoppers{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 50%;
+}
+     
+.why-desc{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    width: 100%;
+}
 
     .mission{
         left: 350px !important;
@@ -558,24 +672,7 @@ footer li a:hover{
     }
     .appstore-btn{
         width:20%;
-        top: 200px;
-        left: 300px;
     }
-    .googleplay-btn{
-        width:20%;
-        top: 200px;
-        left: 500px;
-    }
-   
-    .try-out--text{
-        top: 60px;
-        left: 190px;
-    }
-    .try-out--earn{
-        top: 260px;
-        left: 200px;
-    }
-
 
     /* footer */
 
@@ -597,10 +694,28 @@ footer li a:hover{
 
 
 @media (max-width: 768px) {
+    .sav_earn-img{
+        top: -120px;
+        left: 370px !important;
+        width: 100%;
+        z-index: 5;
+        display: none !important;
+    }
+    .mission{
+        top: -40px;
+        left: 420px !important;
+        z-index: 10;
+        width: 80%;
+        display: none !important;
+    } 
+    .btn-custom-1{
+        width: 80%;
+    }
     .btn-custom-2 {
         margin-top: 1rem;
         width: 80%;
-        border: none !important;
+        border: 2px solid white !important;
+        border-radius: 25px !important;
     }
     .elipse-img{
         width: 80% !important;
@@ -647,20 +762,7 @@ footer li a:hover{
             left: 0px;
             right: 20px;
         }
-        .appstore-btn{
-            top: 230px;
-            left: 140px;
-        }
-        .googleplay-btn{
-            top: 230px;
-            left: 260px;
-        }
-        .try-out--earn{
-            position: absolute;
-            top: 260px;
-            left:80px;
-            right: 70px;
-        }
+       
         .subscribe{
             border-radius: 100px;
             
@@ -675,10 +777,18 @@ footer li a:hover{
 
 @media (max-width: 576px){ 
   
-   /* .btn-toggler{
-       margin-right: auto !important;
-       float: right !important;
-   } */
+    /* .sav_earn-img{
+        top: -100px;
+        left: 580px !important;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mission{
+        top: -100px;
+        left: 650px !important;
+        z-index: 10;
+    }  */
     .hero-text{
         width: 100%;
     }
@@ -702,6 +812,9 @@ footer li a:hover{
         width: 80%;
         margin-bottom: 10px;
         
+    }
+    .ellipse{
+        display: none !important;
     }
      /* faq */
      .other-question{
@@ -791,16 +904,6 @@ footer li a:hover{
         width: 100%;
         height: 400px;
         border-radius: 40px;
-    }
-    .appstore-btn{
-        width: 30%;
-        top: 220px;
-        left: 50px;
-    }
-    .googleplay-btn{
-        width: 30%;
-        top: 220px;
-        left: 150px;
     }
     .subscribe{
         border-radius: 40px;
