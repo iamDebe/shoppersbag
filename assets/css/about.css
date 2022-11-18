@@ -64,7 +64,13 @@ body a, li{
     color: #00A0FF;
 
 }
-
+.hero-text{
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+.hero-text p{
+    width: 80% !important;
+}
 .scribbling{
     position: absolute;
     width: 25%;
@@ -88,16 +94,30 @@ body a, li{
 }
 .recyle-text--heading{
     font-weight: 900!important;
+    font-size: 2.5rem !important;
 }
 
-/* .recyle-text--desc{
+.recyle-text--desc{
+    font-size: 1.2rem !important;
   
-} */
+}
 .our-company{
     margin-top: 30px !important;
     font-family: 'Avenir', sans-serif;
-    overflow-x: scroll;
+    
+    /* overflow-x: scroll; */
    
+}
+.company-title{
+    font-size: 2.5rem !important;
+
+}
+.table{
+    font-size: 1.2rem !important;
+    
+}
+.company-text{
+    font-size: 1.2rem !important;
 }
 
 .our-company::-webkit-scrollbar-thumb {
@@ -191,6 +211,14 @@ footer li a:hover{
     }
 }
 @media (max-width:991px){
+    .hero-text{
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+    .hero-text p{
+        width: 100% !important;
+    }
+    .s
     .join-team{
         border-radius: 120px;
     }
@@ -203,6 +231,10 @@ footer li a:hover{
     .gg{
         width: 70%;
     } 
+    .team-border{
+        border-radius: 100px !important;
+       
+     }
 }
 @media (max-width:768px){
     .avatar{
@@ -223,12 +255,24 @@ footer li a:hover{
     .avatar{
         width: 100%;
      }
+     .gg{
+        width: 90% !important;
+        padding-left: .5rem !important;
+    }
 }
 
 @media (max-width:375px){
     .custom-table{
 
     }
+    .company-title{
+        font-size: 1.9rem !important;
+    }
+    .hero-text h1{
+       font-size: 2rem;
+       width: 100%;
+    }
+
     .team-border{
         border-radius: 40px !important;
      }
